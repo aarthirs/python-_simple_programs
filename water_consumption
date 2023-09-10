@@ -1,0 +1,9 @@
+#The doctor advised Chef to drink at least 2000 ml of water each day.
+#Chef drank XX ml of water today. Determine if Chef followed the doctor's advice or not.
+i =int(input( "Enter the number of test case:" ))
+for i in range(i):
+    x=int(input("water consumption :"))
+    if x>=2000:
+        print("yes")
+    else:
+        print("no")
