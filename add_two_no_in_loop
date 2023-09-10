@@ -1,0 +1,12 @@
+#given two integers AA and BB, write a program to add these two numbers and output the sum.
+#Input Format
+
+    #The first line contains an integer TT, the total number of test cases.
+    #Then follow TT lines, each line contains two integers, AA and BB.
+
+i=int(input( ))
+for t in range(i):
+    a,b =map(int, input().split(' '))
+    sum=a+b
+    print(sum)
+    
