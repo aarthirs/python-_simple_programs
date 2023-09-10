@@ -1,0 +1,4 @@
+#Print current time and date 
+import datetime as a
+now=a.datetime.now()
+print(now.strftime("%Y-%m-%d %H:%M:%S"))
